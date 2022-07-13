@@ -1,0 +1,11 @@
+- name: Debugging using Reverse RDP with ngrok
+  # You may pin to the exact commit or the version.
+  # uses: NyaMisty/reverse-rdp-windows-github-actions-ng@2c530c958c48fd0ca88069dd1ba7e3fc3c56e184
+  uses: NyaMisty/reverse-rdp-windows-github-actions-ng@v1.0
+  with:
+    # 
+    ngrok-token: 
+    # 
+    password: # optional, default is P@ssw0rd!
+    # 
+    foreground: # optional, default is true
